@@ -65,7 +65,7 @@ var UI = struct {
 		Keywords    string
 	} `ini:"ui.meta"`
 
-	CommitLanguage string `ini:"ui.commit_language"`
+	CommitLanguage string `ini:"COMMIT_LANGUAGE"`
 }{
 	ExplorePagingNum:    20,
 	SitemapPagingNum:    20,
